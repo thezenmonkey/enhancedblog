@@ -16,7 +16,7 @@
 	{
 		"silverstripe/cms": "~3.1",
 		"silverstripe/blog": "dev-master"
-	}
+	},
 	"config": {
 		"process-timeout": 600	
 	},
