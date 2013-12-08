@@ -1,0 +1,24 @@
+{
+	"name": "thezenmonkey/enhancedblog",
+	"description": "Enhanced Blog Module for SilverStripe",
+	"type": "silverstripe-module",
+	"version": 0.9
+	"keywords": ["silverstripe", "blog"],
+	"authors": [
+	{
+		"name": "Richard Rudy",
+		"email": "iwant@designplusawesome.com",
+		"homepage": "http://designplusawesome.com"
+	}
+	],
+
+	"require":
+	{
+		"silverstripe/cms": "~3.1",
+		"silverstripe/blog": "dev-master"
+	}
+	"config": {
+		"process-timeout": 600	
+	},
+	"minimum-stability": "dev"
+}

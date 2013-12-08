@@ -1,0 +1,10 @@
+BlogEntry:
+  extensions:
+    - "EnhancedBlogEntry"
+  defaultGroup: 'content-authors'
+BlogTree_Controller:
+  extensions:
+    - "BlogTreeControllerExtension"
+Member:
+  extensions:
+    - "BlogAuthorMember"
