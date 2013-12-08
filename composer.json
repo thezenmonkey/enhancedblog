@@ -2,7 +2,7 @@
 	"name": "thezenmonkey/enhancedblog",
 	"description": "Enhanced Blog Module for SilverStripe",
 	"type": "silverstripe-module",
-	"version": 0.9
+	"version": 0.9,
 	"keywords": ["silverstripe", "blog"],
 	"authors": [
 	{
