@@ -16,11 +16,14 @@ class BlogTreeControllerExtension extends DataExtension {
 	);
 	
 	function tag() {
+		
+		$blogName = $this->owner->Title . " - " . ucwords($this->owner->request->latestParam('ID')); 
+		
 		if ($this->owner->request->param('Action') == 'tag' && $this->owner->request->param('OtherID') == "rss") {
 			$entries = $this->owner->Entries(20, Convert::raw2xml($this->owner->request->latestParam('ID')));
 			
 			if($entries) {
-				$rss = new RSSFeed($entries, $this->owner->Link('rss'), ($blogName ? $blogName : $altBlogName), "", "Title", "RSSContent");
+				$rss = new RSSFeed($entries, $this->owner->Link('rss'), $blogName, "", "Title", "RSSContent");
 				return $rss->outputToBrowser();
 				
 			}
