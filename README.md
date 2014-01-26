@@ -16,7 +16,7 @@ A module to provide added functionality to the default SilverStripe Blog Module 
 The module adds a has_many/has_one relation between BlogEntry and Member. The Author drop down on BlogEntry is pulled from the 'content-author' member group by default. If you only have Default Admin you'll need to make sure you add that user to the content-author group. You can use any other member group by setting defaultGroup on BlogEntry in your config.yml to the desired group code.
 ```yml
 BlogEntry:
-  defaultGroup: 'content-author'
+  defaultGroup: 'content-authors'
 ```
 
 ## Tag RSS Feed
