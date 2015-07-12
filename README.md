@@ -1,9 +1,9 @@
 # Enhanced Blog Module
-A module to provide added functionality to the default SilverStripe Blog Module and bring it more in line with competing blogging platforms
+A module to provide added functionality to the default SilverStripe Blog Module and bring it more in line with competing blogging platforms. **Please Note most of these features are now available in silver stripe/blog 2.0 ** I'll leave this module for anyone stuck using the older blog module
 
 ## Requirements
 * SilverStripe 3.1
-* silverstripe-blog module
+* silverstripe-blog module 1.0
 
 ## Feature Overview
 * Custom Summaries for Blog Entries
